@@ -28,12 +28,19 @@
 		<button id="btn1">Set Text</button>
 		<button id="btn2">Set HTML</button>
 		<button id="btn3">Set Value</button>
+        <button id='setAttr'>Set attr</button>
 		<hr/>
 		<p id="test1">This is a paragraph.</p>
 		<p id="test2">This is another paragraph.</p>
 
 		<p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+        <hr>
 
+         <form action="" method="post">
+              <input type="email" id="email" >
+              <br><br>
+              <input type="submit" name="submit" value="submit">
+         </form>
 	
 		
 		
@@ -50,7 +57,11 @@
         $("#test2").html("<b>Hello world!</b>");
     });
     $("#btn3").click(function(){
-        $("#test3").val("Dolly Duck");
+        $("#test3").val("Hafizur");
+    });
+    //set attr
+    $("#setAttr").click(function() {
+      $("#email").attr('requird',true);
     });
 });
     </script> 

@@ -1,0 +1,65 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #696969;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #696969;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+/*  top-nav css start */
+
+.top-nav {
+    background: #f5f5f5;
+    padding: 24px 0;
+}
+
+.top-nav a {
+    columns: #696969!important;
+    font-size: 14px;
+}
+
+.top-nav-contact-info i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#search-form {
+    display: none;
+}
+
+.search-button:hover #search-form {
+    display: block;
+}
+
+.search-field {
+    height: calc(1em + .75rem + 2px);
+    margin-right: 3px;
+}

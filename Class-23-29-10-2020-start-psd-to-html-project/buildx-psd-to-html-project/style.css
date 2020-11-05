@@ -122,6 +122,10 @@ header::after {
 
 /*   section title css  */
 
+.section-padding {
+    padding: 100px 0;
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 80px;
@@ -183,4 +187,65 @@ header::after {
 .service-item:hover .service-content a {
     color: #fab702;
     text-decoration: underline;
+}
+
+/*  service-bottom css */
+
+#service-bottom {
+    overflow: hidden;
+}
+
+.service-bottom-left {
+    width: 48%;
+    float: left;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #fff;
+    right: 28px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+}
+
+.play-button a i {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.service-bottom-left img {
+    width: 100%;
+    height: 478px;
+}
+
+.service-bottom-right {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 60px;
+    background: #f8f8f8;
+    padding-bottom: 66px;
+}
+
+.service-list {
+    padding: 12px 0;
+}
+
+.service-list h3 {
+    font-size: 20px
+}
+
+.service-list:hover h3 {
+    color: #ffb700
+}
+
+.mix{
+    float:left;
+    width:33%;
 }

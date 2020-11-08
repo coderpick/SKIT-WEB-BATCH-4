@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/topbox.css">
+  <link rel="stylesheet" href="css/modal-video.min.css">
   <!-- icofont css link -->
   <link rel="stylesheet" href="css/icofont.min.css">
   <link rel="stylesheet" href="style.css">
@@ -171,130 +171,397 @@
   </section>
   <!-- service section end -->
   <!-- service-bottom start -->
-  <section id="service-bottom">
-    <div class="service-bottom-left">
-      <img src="img/service/service-bottom-bg.jpg" alt="">
-      <div class="play-button">
-        <a href="https://youtu.be/2xX7RrxyRac" class="lightbox" aria-haspopup="dialog" >
-          <i class="icofont-play"></i>
-        </a>
-      </div>
+  <section class="video-area">
+    <div class="video-bg">
+      <a href="" class="video-play-btn" data-video-id='FeJKJ5MoCHY'><i class="icofont-ui-play"></i></a>
     </div>
-    <div class="service-bottom-right">
-      <div class="container">
-        <div class="service-list">
-          <div class="media">
-            <img src="img/icon-1.png" class="mr-5 mt-4" alt="">
-            <div class="media-body">
-              <h3>GENERAL BUILDER</h3>
-              <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete commodo
-                ea use possit
-                lucilius.</p>
-            </div>
-          </div>
-        </div><!-- //.service-list -->
 
-        <div class="service-list">
-          <div class="media">
-            <img src="img/icon-2.png" class="mr-5 mt-4" alt="">
-            <div class="media-body">
-              <h3>GENERAL BUILDER</h3>
-              <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete
-                commodo
-                ea use possit
-                lucilius.</p>
-            </div>
-          </div>
-        </div><!-- //.service-list -->
-
-        <div class="service-list">
-          <div class="media">
-            <img src="img/icon-3.png" class="mr-5 mt-4" alt="">
-            <div class="media-body">
-              <h3>GENERAL BUILDER</h3>
-              <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete
-                commodo
-                ea use possit
-                lucilius.</p>
+    <div class="container">
+      <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-6">
+          <div class="service-list">
+            <div class="media">
+              <img src="img/icon-1.png" class="mr-5 mt-4" alt="">
+              <div class="media-body">
+                <h3>GENERAL BUILDER</h3>
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete
+                  commodo
+                  ea use possit
+                  lucilius.</p>
+              </div>
             </div>
           </div><!-- //.service-list -->
+
+          <div class="service-list">
+            <div class="media">
+              <img src="img/icon-2.png" class="mr-5 mt-4" alt="">
+              <div class="media-body">
+                <h3>GENERAL BUILDER</h3>
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete
+                  commodo
+                  ea use possit
+                  lucilius.</p>
+              </div>
+            </div>
+          </div><!-- //.service-list -->
+
+          <div class="service-list">
+            <div class="media">
+              <img src="img/icon-3.png" class="mr-5 mt-4" alt="">
+              <div class="media-body">
+                <h3>GENERAL BUILDER</h3>
+                <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis persequeris neglegentur, facete
+                  commodo
+                  ea use possit
+                  lucilius.</p>
+              </div>
+            </div><!-- //.service-list -->
+          </div>
         </div>
       </div>
+    </div>
   </section>
   <!-- service-bottom end -->
-<!-- our-work section start -->
-<section id="our-work" class="section-padding">
-  <div class="container-fluid p-0">
-    <div class="section-title">
-      <h1>Our Works</h1>
-      <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis persequeris neglegentur,
-      facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus id.Mel
-      autem animal.</p>
-    </div>
+  <!-- our-work section start -->
+  <section id="our-work" class="section-padding">
+    <div class="container-fluid">
+      <div class="section-title">
+        <h1>Our Works</h1>
+        <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis persequeris
+          neglegentur,
+          facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus
+          id.Mel
+          autem animal.</p>
+      </div>
 
-    <div class="work-list-nav text-center mb-5">        
-      <button type="button" data-filter="all">All</button>
-      <button type="button" data-filter=".green">Green Building</button>
-      <button type="button" data-filter=".healthcare">Healthcare</button>
-      <button type="button" data-filter=".interior">Interior Design</button>
-      <button type="button" data-filter=".Office">Office</button>
+      <ul class="nav justify-content-center mb-5 fillter-nav">
+        <li class="nav-item nav-link" data-filter="all">All</li>
+        <li class="nav-item nav-link" data-filter=".green">Green Building</li>
+        <li class="nav-item nav-link" data-filter=".healthcare">Healthcare</li>
+        <li class="nav-item nav-link" data-filter=".interior">Interior Design</li>
+        <li class="nav-item nav-link" data-filter=".Office">Office</li>
+      </ul>
+
+      <div class="work-items row">
+        <div class="mix col-md-4 green">
+          <img src="img/work/green.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 Office">
+          <img src="img/work/office.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 green">
+          <img src="img/work/green.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 healthcare">
+          <img src="img/work/healthcare.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 green">
+          <img src="img/work/green.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 healthcare">
+          <img src="img/work/healthcare.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 interior">
+          <img src="img/work/interior.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 Office">
+          <img src="img/work/office.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 interior">
+          <img src="img/work/interior.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 Office">
+          <img src="img/work/office.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mix col-md-4 Interior">
+          <img src="img/work/interior.jpg" alt="">
+          <div class="work-title-overlay">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>ARCHITECTURE AND DESIGN</h4>
+                <hr>
+              </div>
+              <div class="col-md-3">
+                <a href="" class="work-btn"><i class="icofont-plus"></i></a>
+                <a href="" class="work-btn"><i class="icofont-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  
-    <div class="work-items">
-      <div class="mix green" >
-      <img src="img/work/green.jpg" alt="">  
+  </section>
+  <!-- our-work section end -->
+  <!-- customer-feedback start -->
+  <section id="customer-feedback" class="section-padding bg-secondary">
+    <div class="container">
+      <div class="section-title">
+        <h1>Customer Feedback</h1>
+        <p>Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id omnis persequeris
+          neglegentur,
+          facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque salutatus
+          id.Mel
+          autem animal.</p>
       </div>
-      <div class="mix Office">
-        <img src="img/work/office.jpg" alt="">
-      </div>
-      <div class="mix green" >
-      <img src="img/work/green.jpg" alt="">  
-      </div>
-      <div class="mix healthcare">
-        <img src="img/work/healthcare.jpg" alt="">
-      </div>
-      <div class="mix green" >
-      <img src="img/work/green.jpg" alt="">  
-      </div>
-      <div class="mix healthcare">
-        <img src="img/work/healthcare.jpg" alt="">
-      </div>
-      <div class="mix interior">
-        <img src="img/work/interior.jpg" alt="">
-      </div>
-      <div class="mix Office">
-        <img src="img/work/office.jpg" alt="">
-      </div>
-      <div class="mix interior">
-        <img src="img/work/interior.jpg" alt="">
-      </div>
-      <div class="mix Office">
-        <img src="img/work/office.jpg" alt="">
-      </div>
-      <div class="mix Interior">
-        <img src="img/work/interior.jpg" alt="">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec
+                        lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec
+                        lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-review">
+                  <div class="media">
+                    <img src="img/clients/c1.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                        Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec
+                        lacinia
+                        congue felis in faucibus</p>
+                      <h5 class="mt-0">Media heading</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- our-work section end -->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eligendi esse dolorem illum similique veritatis temporibus excepturi fuga beatae deserunt nostrum quas suscipit harum, ut quibusdam. Voluptates iste dolore numquam?</p>
+  </section>
+  <!-- customer-feedback end -->
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/topbox.js"></script>
+  <script src="js/jquery-modal-video.min.js"></script>
   <script src="js/mixitup.min.js"></script>
   <script src="js/main.js"></script>
-<script>
+  <script>
     $(document).ready(function () {
-        $('.lightbox').topbox();
 
-        //mixitup active
-        var mixer = mixitup('.work-items');
+      $(".video-play-btn").modalVideo({
+        channel: 'youtube'
       });
-</script>
+      //mixitup active
+      var mixer = mixitup('.work-items');
+    });
+  </script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

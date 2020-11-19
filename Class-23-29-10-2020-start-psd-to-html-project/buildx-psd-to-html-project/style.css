@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -313,4 +313,139 @@ header::after {
     color: #fff;
     font-weight: 700;
     font-size: 60px;   
+}
+#contact-btn {
+    background: #f9f9f9;
+    padding: 80px 0;
+}
+
+.contact-panel {
+    padding: 30px 20px;
+    background: #fff;
+    border-left: 5px solid #fbbe02;
+}
+
+a.btn-Quate.bg-orange {
+    background: #fab702;
+    color: #fff;
+}
+/*news section css*/
+.news-content {
+    margin-top: 25px;
+}
+
+.news-meta {
+    margin-top: 10px;
+}
+.news-img {
+    position: relative;
+}
+
+.news-img::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(250, 193, 2, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.news-item:hover .news-img::after {
+    opacity: 1;
+}
+
+
+
+.news-read-more{
+    display: inline-block;
+    font-size: 18px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.news-item:hover .news-read-more{
+    color: #ffb700;
+    text-decoration: underline;
+}
+/*footer top css*/
+#footer-top {
+    background: #252c3a;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.footer-top-item h5{
+    margin-bottom: 16px;
+}
+.recent-post-list ul li a.nav-link {
+    padding: 8px 0;
+    border-bottom: 1px solid #303744;
+    margin: 6px 0;
+    color: #f9f9f9;
+}
+.recent-post-list ul li a:before{
+    content: "\ea7c";
+    font-family:IcoFont;
+    margin-right: 4px;
+}
+
+.news-item-bottom-border{
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #303744;
+}
+.contact-info-list ul li a{
+    color:#f9f9f9;
+}
+.contact-info-list ul li a p{
+  display: inline-block;
+}
+.contact-info-list ul li a.email:before{
+    content: "\ef14";
+    font-family:IcoFont;
+    margin-right: 4px;
+}
+.contact-info-list ul li a.phone:before{
+    content: "\efbb";
+    font-family:IcoFont;
+    margin-right: 4px;
+    vertical-align:top;
+}
+.contact-info-list ul li a.address:before{
+    content: "\ed42";
+    font-family:IcoFont;
+    margin-right: 4px;
+    vertical-align:top;
+}
+.social-link a {
+    padding: 4px 12px;
+    font-size: 26px;
+    color: #fff;
+}
+.social-link a:hover{
+    color:#ffb700;
+}
+.mailing-form{
+    margin-bottom: 20px;
+}
+.mailing-form .input-group-text { 
+    color: #fff;   
+    background-color: #fab702;
+    border: 1px solid #fab702;
+    border-radius: 0;
+}
+.mailing-form .form-control { 
+    border-radius: 0;
+}
+/*footer bottom css*/
+#footer-bottom{
+    background: #4c5b6d;
+    padding: 20px 0;
+}
+#footer-bottom a{
+       color:#f9f9f9 !important;
 }

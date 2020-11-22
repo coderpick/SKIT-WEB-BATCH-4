@@ -1,14 +1,105 @@
 /* Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .welcome-text {
+        padding: 70px 0;
+    }
+    .welcome-text h1 {
+        font-size: 30px;
+    }
+    .custom-btn {
+        padding: 14px 24px;
+        font-size: 18px;
+    }
+    .btn-Quate {
+        padding: 12px 18px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .header-bottom-text p {
+        font-size: 18px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    .service-img img {
+        width: 100%;
+    }
+    .service-item {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .section-title h1 {
+        font-size: 36px;
+    }
+    .video-bg {
+        display: none;
+    }
+    .service-list {
+        width: 90%;
+        margin: 20px auto;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+    .work-title-overlay h4 {
+        font-size: 16px;
+    }
+    .work-title-overlay hr {
+        margin: 0;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .welcome-text {
+        padding: 90px 0;
+    }
+    .welcome-text h1 {
+        font-size: 38px;
+    }
+    .custom-btn {
+        padding: 16px 26px;
+        font-size: 20px;
+    }
+    .btn-Quate {
+        padding: 6px 6px;
+        font-size: 17px;
+        margin-top: 22px;
+    }
+    .header-bottom-text p {
+        font-size: 18px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    .video-bg {
+        display: none;
+    }
+    .work-title-overlay h4 {
+        font-size: 18px;
+    }
+    .work-title-overlay hr {
+        margin: 0;
+    }
+}
 
 /*  Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .welcome-text {
+        padding: 120px 0;
+    }
+    .welcome-text h1 {
+        font-size: 48px;
+    }
+    .btn-Quate {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    .header-bottom-text p {
+        font-size: 20px;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 

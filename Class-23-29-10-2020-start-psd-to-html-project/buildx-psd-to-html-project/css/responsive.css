@@ -30,7 +30,7 @@
         margin: 10px auto;
     }
     .section-title h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
     .video-bg {
         display: none;
@@ -46,6 +46,39 @@
     .work-title-overlay hr {
         margin: 0;
     }
+    .single-counter {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #ffffff38;
+    }
+    .counter {   
+    font-size: 38px;
+   }
+   .contact-panel {
+    padding: 20px 14px;
+    }
+    .section-padding {
+    padding: 56px 0;
+  }
+  .news-item {
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15);
+    }
+
+    .news-content {
+        margin-top:16px;
+        padding: 6px 12px;
+    }
+    .footer-top-item {
+    margin: 20px auto;
+    width: 80%;
+    }
+    .mix {
+    max-width: 80%;
+    margin: 6px auto;
+}
+   
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -62,9 +95,9 @@
         font-size: 20px;
     }
     .btn-Quate {
-        padding: 6px 6px;
-        font-size: 17px;
-        margin-top: 22px;
+        padding: 14px 18px;
+        font-size: 18px;
+        margin-top: 10px;
     }
     .header-bottom-text p {
         font-size: 18px;
@@ -81,6 +114,28 @@
     .work-title-overlay hr {
         margin: 0;
     }
+    .single-counter {
+    margin-bottom: 20px;
+    border: 1px solid #ffffff38;
+   }
+   .counter {   
+    font-size: 42px;
+    }
+    .section-title h1 {
+    font-size: 38px
+    }
+    .news-item {
+    margin-bottom: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15);
+    }
+
+    .news-content {
+        margin-top:16px;
+        padding: 6px 12px;
+    }
+    .footer-top-item {
+    margin-bottom: 20px;
+}
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -93,12 +148,15 @@
         font-size: 48px;
     }
     .btn-Quate {
-        padding: 15px 20px;
-        font-size: 20px;
+        padding: 14px 16px;
+        font-size: 18px;
     }
     .header-bottom-text p {
         font-size: 20px;
     }
+    .footer-top-item {
+    margin-bottom: 20px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */

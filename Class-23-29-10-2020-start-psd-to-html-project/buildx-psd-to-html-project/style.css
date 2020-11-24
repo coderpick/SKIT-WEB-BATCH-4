@@ -4,6 +4,9 @@ font-family: 'Roboto', sans-serif; */
 * {
     box-sizing: border-box;
 }
+/*html{
+    scroll-behavior: smooth;
+}*/
 
 body {
     font-size: 14px;
@@ -32,6 +35,14 @@ a, p {
 h1, h2, h3, h4, h5, h6 {
     margin: 4px 0;
     font-family: 'Montserrat', sans-serif
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,0.20);
 }
 
 /*  top-nav css start */
@@ -118,7 +129,7 @@ header:after {
     color: #fab702;
     font-weight: 500;
     background: #fff;
-    padding: 16px 38px;
+    padding: 14px 16px;
     font-size: 20px;
 }
 
@@ -329,7 +340,7 @@ header:after {
     margin-top: 10px;
     color: #fff;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #contact-btn {
@@ -490,4 +501,23 @@ a.btn-Quate.bg-orange {
 
 #footer-bottom a {
     color: #f9f9f9 !important;
+}
+.scroll-top {
+    height: 70px;
+    width: 70px;
+    background: red;   
+    font-size: 36px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 85px;
+    z-index: 1005;
+    cursor: pointer;
+    
+}
+.scroll-top a{
+ color: #fff;
+ display: inline-block;
 }

@@ -22,7 +22,7 @@
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <div class="top-nav"  id="top">
         <div class="container">
           <div class="row">
@@ -877,6 +877,35 @@
             });
 
             });
+			
+			
+			(function(){
+				// Your base, I'm in it!
+				var originalAddClassMethod = jQuery.fn.addClass;
+
+				jQuery.fn.addClass = function(){
+					// Execute the original method.
+					var result = originalAddClassMethod.apply( this, arguments );
+
+					// trigger a custom event
+					jQuery(this).trigger('cssClassChanged');
+
+					// return the original result
+					return result;
+				}
+			})();
+			
+			$(".nav-link").bind('cssClassChanged' , function(e) {
+				$(".nav-item").each( function() {
+					if( $(this).hasClass("active") == true ) {
+						$(this).removeClass("active");
+					}
+				});
+
+				$(this).removeClass("active").parent().addClass("active");
+			});
+
+
             </script>
             <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
             <script>

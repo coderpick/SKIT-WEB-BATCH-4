@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+
+    function formFunction(){
+
+    var result = document.myform.result.value;
+
+      if( result >= 80 && result<=100){
+          showData = "You have got A+";
+        }else if(result >= 70 && result<=79){
+          showData = "You have got A";
+        }else if(result >= 60 && result<=69){
+          showData = "You have got B";
+        }else if(result >= 50 && result<=59){
+          showData ="You have got C";
+        }else{
+          showData = "You are failed";
+        }
+    
+    document.getElementById('output').innerHTML=showData;
+
+    }
+    
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="output"></h2>
+
+      <form action="" method="post" name="myform" id="myform" onsubmit="formFunction();return false ">
+        
+        <p>Check your result: <input type="number" name="result"></p>
+        <p>
+          <input type="submit" name="submit" value="Submit">
+        </p>
+        
+      </form>
+      
+    </div>
+    
+  </body>
+</html>

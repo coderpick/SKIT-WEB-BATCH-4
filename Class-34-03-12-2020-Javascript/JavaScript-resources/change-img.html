@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeImage() {
+    document.getElementById('myimage').src = "g.jpg";
+}
+function oldImage() {
+    document.getElementById('myimage').src = "b.jpg";
+}
+</script>
+</head>
+
+<body>
+
+<img id="myimage" onmouseover="changeImage()" onmouseout="oldImage()" src="b.jpg" />
+
+<p>Click mouse and hold down!</p>
+
+</body>
+</html>

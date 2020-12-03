@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js array</title>
+</head>
+<body>
+
+
+	<script>
+		
+		//var color = new Array('green','blue','orange','pink','white','black','yellow');
+		var color = ['green','blue','orange','pink','white','black','yellow'];
+
+		for( mycolor in color){
+			document.write(color[mycolor]+"<br/>");
+		}
+		document.write('<hr/>');
+
+		//color.push('red'); /* item add in array last position */
+		//color.pop(); /* item remove in array last position */
+
+		//color.unshift('red','ligthgray'); /* item add in array frist position */
+		 color.shift(); /* item remove in array first position */
+		//document.write(color.length);
+		document.write(color);
+		//document.write(color.sort());
+
+	</script>
+	<hr>
+	<h2>js object</h2>
+	<script>
+		
+		var userInfo = {
+			name:'hafizur',
+			email:'hafizur@mail.com',
+			phone:'01739981172',
+		}
+
+		document.write("User name is "+userInfo['name']);
+
+	</script>
+<hr>
+<h3>js array splice</h3>
+<script>
+	var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+	document.write(fruits+"<br/>");
+
+	//fruits.splice(2, 1, "Lemon", "Kiwi");
+   var newfruits=  fruits.slice(2)
+
+	document.write(newfruits);
+
+</script>
+	
+</body>
+</html>
